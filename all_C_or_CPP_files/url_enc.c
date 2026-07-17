@@ -18,8 +18,8 @@ void url_encode(char *str,int true_length){
 }
 
 int main() {
-	char str[] = "Hello World is good      ";
-	int true_length = 19;
+	char str[] = "Hello World  ";
+	int true_length = 11;
 	url_encode(str,true_length);
 	printf("%s\n",str);
 	return 0;
